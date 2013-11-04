@@ -31,7 +31,7 @@
         "prepublish": "node prepublish.js"
     },
     "directories" : {
-        "data" : "./data",
+        "data" : "./data"
     },
     "dependencies": {
     },
