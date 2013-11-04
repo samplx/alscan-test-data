@@ -397,6 +397,7 @@ function main() {
     }
 
     // cpanel alscan account
+    mkdir('data/cpanel/home/alscan/.cpanel');
     copyFile('data/logs/alscan.info', 'data/cpanel/usr/local/apache/domlogs/alscan.info');
     makeMinutesInfo('data/cpanel/usr/local/apache/domlogs/minutes.alscan.info', new Date(2013, 0, 1, 0, 0, 0), new Date(2013, 0, 1, 23, 59, 59));
     makeSecondsInfo('data/cpanel/usr/local/apache/domlogs/seconds.alscan.info', new Date(2012, 11, 31, 0, 0, 0), new Date(2013, 0, 1, 23, 59, 59));
@@ -418,6 +419,7 @@ function main() {
     
 
     // cpanel druid account
+    mkdir('data/cpanel/home1/druid/.cpanel');
     copyFile('data/logs/alscan-org.druiddesigns.com', 'data/cpanel/usr/local/apache/domlogs/alscan-org.druiddesigns.com');
     copyFile('data/logs/ddinfo.druiddesigns.com', 'data/cpanel/usr/local/apache/domlogs/ddinfo.druiddesigns.com');
     copyFile('data/logs/ddnet.druiddesigns.com', 'data/cpanel/usr/local/apache/domlogs/ddnet.druiddesigns.com');
@@ -448,6 +450,7 @@ function main() {
     
 
     // cpanel samplx account
+    mkdir('data/cpanel/home/samplx/.cpanel');
     copyFile('data/logs/samplx.org', 'data/cpanel/usr/local/apache/domlogs/samplx.org');
     copyFile('data/logs/pub.samplx.org', 'data/cpanel/usr/local/apache/domlogs/pub.samplx.org');
     createAccountLogs('data/cpanel/usr/local/apache/domlogs', 'samplx',

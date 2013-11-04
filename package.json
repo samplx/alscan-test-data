@@ -1,7 +1,7 @@
 {
-    "name": "alscan-js",
+    "name": "alscan-test-data",
     "version": "0.3.0-alpha1",
-    "description": "An access log scanner.",
+    "description": "Test data for the alscan tool.",
     "homepage": "http://alscan.org/",
     "author": {
         "name": "Jim Burlingame"
@@ -18,46 +18,26 @@
             "email": "jb@samplx.org"
         }
     ],
-    "main": "./bin/alscan-cli.js",
+    "main": "./index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/samplx/alscan-js.git"
+        "url": "https://github.com/samplx/alscan-test-data.git"
     },
     "license": {
         "type": "Apache 2.0",
-        "url": "https://github.com/samplx/alscan/blob/master/LICENSE"
+        "url": "https://github.com/samplx/alscan-test-data/blob/master/LICENSE"
     },
-    "bin": { 
-        "alscan" : "./bin/alscan",
-        "alscan-js" : "./bin/alscan"
-    },
-    "preferGlobal" : true,
     "scripts": {
-        "test": "node run-tests.js"
+        "prepublish": "node prepublish.js"
     },
     "directories" : {
-        "lib" : "./lib",
-        "bin" : "./bin",
-        "test" : "./test"
+        "data" : "./data",
     },
     "dependencies": {
-        "samplx-agentdb" : "http://pub.samplx.org/samplx/samplx-agentdb-0.3.x.tar.gz",
-        "samplx-argv-parser" : "~ 2.0.0",
-        "js-yaml" : "~ 2.1.2",
-        "underscore" : "~ 1.5.2",
-        "when" : "~ 2.5.1",
-        "utmp" : "~ 0.1.0"
-    },
-    "engines": {
-        "node" : ">= 0.10.0"
-    },
-    "devDependencies": {
-        "alscan-test-data" : "http://pub.samplx.org/samplx/alscan-test-data-0.3.0.tar.gz",
-        "buster-node": "0.1"
     },
     "readmeFilename": "README.md",
     "bugs": {
-        "url": "https://github.com/samplx/alscan/issues",
+        "url": "https://github.com/samplx/alscan-test-data/issues",
         "email" : "bugs@samplx.org"
     }
 }
