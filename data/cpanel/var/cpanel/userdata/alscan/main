@@ -1,0 +1,17 @@
+--- 
+addon_domains: 
+  addon.us: addon.alscan.info
+  bandwidth.net: bandwidth.alscan.info
+  days.info: days.alscan.info
+  minutes.info: minutes.alscan.info
+  seconds.info: seconds.alscan.info
+main_domain: alscan.info
+parked_domains: []
+
+sub_domains: 
+  - days.alscan.info
+  - bandwidth.alscan.info
+  - addon.alscan.info
+  - seconds.alscan.info
+  - minutes.alscan.info
+  - dst.alscan.info

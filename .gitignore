@@ -5,11 +5,23 @@ lib-cov
 *.dat
 *.out
 *.pid
-*.gz
 
 pids
-logs
 results
 
 npm-debug.log
 node_modules
+
+data/cpanel/usr/local/apache
+data/cpanel/usr/local/cpanel/logs
+data/cpanel/var/log/wtmp
+data/cpanel/home1/druid/access-logs
+data/lines
+data/plesk/var/log
+data/plesk/var/www/vhosts/alscan.info
+data/plesk/var/www/vhosts/bandwidth.net
+data/plesk/var/www/vhosts/days.info
+data/plesk/var/www/vhosts/minutes.info
+data/plesk/var/www/vhosts/seconds.info
+data/plesk/var/www/vhosts/fall.dst.us
+data/plesk/var/www/vhosts/spring.dst.us

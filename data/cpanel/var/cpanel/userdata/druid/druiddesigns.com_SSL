@@ -1,0 +1,19 @@
+--- 
+documentroot: /home1/druid/public_html
+group: druid
+hascgi: 1
+homedir: /home1/druid
+ip: 192.185.33.67
+owner: root
+phpopenbasedirprotect: ~
+port: 443
+serveradmin: webmaster@druiddesigns.com
+serveralias: www.druiddesigns.com druiddesigns.biz www.druiddesigns.biz
+servername: druiddesigns.com
+ssl: 1
+sslcacertificatefile: /usr/share/ssl/certs/druiddesigns.com.cabundle
+sslcertificatefile: /usr/share/ssl/certs/druiddesigns.com.crt
+sslcertificatekeyfile: /usr/share/ssl/private/druiddesigns.com.key
+usecanonicalname: 'Off'
+user: druid
+userdirprotect: ''

@@ -1,0 +1,22 @@
+--- 
+addon_domains: 
+  alscan.org: alscan-org.druiddesigns.com
+  druiddesigns.info: ddinfo.druiddesigns.com
+  druiddesigns.net: ddnet.druiddesigns.com
+  druiddesigns.org: ddorg.druiddesigns.com
+  issnap.info: isinfo.druiddesigns.com
+  issnap.org: isorg.druiddesigns.com
+  redmine.samplx.org: redmine.druiddesigns.com
+  z80cim.org: z80cim.druiddesigns.com
+main_domain: druiddesigns.com
+parked_domains: 
+  - druiddesigns.biz
+sub_domains: 
+  - ddnet.druiddesigns.com
+  - isinfo.druiddesigns.com
+  - isorg.druiddesigns.com
+  - ddorg.druiddesigns.com
+  - ddinfo.druiddesigns.com
+  - z80cim.druiddesigns.com
+  - alscan-org.druiddesigns.com
+  - redmine.druiddesigns.com

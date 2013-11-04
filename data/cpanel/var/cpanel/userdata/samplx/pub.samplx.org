@@ -1,0 +1,28 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /usr/local/apache/domlogs/pub.samplx.org
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /usr/local/apache/domlogs/pub.samplx.org-bytes_log
+documentroot: /home/samplx/public_html/pub
+group: samplx
+hascgi: 0
+homedir: /home/samplx
+ifmodulemodsuphpc: 
+  group: samplx
+ip: 174.122.54.92
+no_cache_update: 0
+options: -ExecCGI -Includes
+phpopenbasedirprotect: 1
+port: 80
+removehandler: 
+  - 
+    removehandler: cgi-script .cgi .pl .plx .ppl .perl
+serveradmin: webmaster@pub.samplx.org
+serveralias: www.pub.samplx.org
+servername: pub.samplx.org
+usecanonicalname: 'Off'
+user: samplx
+userdirprotect: -1

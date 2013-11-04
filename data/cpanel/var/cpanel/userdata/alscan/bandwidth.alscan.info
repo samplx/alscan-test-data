@@ -1,0 +1,28 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /usr/local/apache/domlogs/bandwidth.alscan.info
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /usr/local/apache/domlogs/bandwidth.alscan.info-bytes_log
+documentroot: /home/alscan/public_html/bandwidth.net
+group: alscan
+hascgi: 0
+homedir: /home/alscan
+ifmodulemodsuphpc: 
+  group: alscan
+ip: 174.122.54.92
+no_cache_update: 0
+options: -ExecCGI -Includes
+phpopenbasedirprotect: 1
+port: 80
+removehandler: 
+  - 
+    removehandler: cgi-script .cgi .pl .plx .ppl .perl
+serveradmin: webmaster@bandwidth.alscan.info
+serveralias: www.bandwidth.alscan.info bandwidth.net www.bandwidth.net
+servername: bandwidth.alscan.info
+usecanonicalname: 'Off'
+user: alscan
+userdirprotect: -1
