@@ -1,6 +1,6 @@
 {
     "name": "alscan-test-data",
-    "version": "0.3.0-alpha1",
+    "version": "0.3.0",
     "description": "Test data for the alscan tool.",
     "homepage": "http://alscan.org/",
     "author": {
